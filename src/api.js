@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Always point to Railway in all modules
-const API_BASE_URL = 'https://backend-mts-production-41c6.up.railway.app/';
+const API_BASE_URL = 'https://backend-mts-production-41c6.up.railway.app';
 
 const api = axios.create({
   baseURL: API_BASE_URL
