@@ -3,7 +3,7 @@ import React, { createContext, useState, useEffect, useContext } from 'react';
 export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [lang, setLang] = useState(localStorage.getItem('lang') || 'en');
+  const [lang, setLang] = useState(localStorage.getItem('lang') || 'ar');
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
   useEffect(() => {
